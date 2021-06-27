@@ -385,26 +385,31 @@ section .title::after{
     content: "get in touch";
 }
 .contact .contact-content .column{
-    width: calc(50% - 30px);
+    width: calc(100% - 50px);
 }
 .contact .contact-content .text{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .contact .contact-content .left  p{
     text-align: justify;
 }
 .contact .contact-content .left  .icons{
-    margin: 5px 5px;
+  
+    margin: 10px 10px 20px 30px;
 }
 .contact .contact-content .row{
-    display: flex;
-    height: 50px;
+    display: block;
+    height: 80px;
     align-items: center;
 }
 .contact .contact-content .row .info{
-    margin-left: 30px;
+    margin-left: 70px;
+    margin-top: -28px;
+    margin-bottom: 10px;
 }
 .contact .contact-content .row i{
     font-size: 20px;
@@ -560,3 +565,4 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
